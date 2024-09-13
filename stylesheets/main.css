@@ -1,0 +1,124 @@
+/* Mobile-first styles */
+
+@font-face {
+  font-family: 'Big Noodle Titling';
+  src: url('../branding/bignoodletitling/big_noodle_titling.ttf');
+}
+
+@font-face {
+  font-family: 'Big Noodle Titling Oblique';
+  src: url('../branding/bignoodletitling/big_noodle_titling_oblique.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../branding/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('../branding/RobotoCondensed-Italic-VariableFont_wght.ttf');
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Big Noodle Titling';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.logo {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+.title,
+.ABV,
+.brewer,
+.style,
+.description,
+a {
+  margin: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ABV,
+.brewer,
+.style {
+  font-family: 'Big Noodle Titling';
+  font-size: 2rem;
+}
+
+a {
+  font-family: 'Big Noodle Titling';
+  font-size: 3rem;
+  margin: 1%;
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
+
+.description {
+  font-family: 'Roboto Condensed';
+  font-size: 1.5rem;
+  margin: 5%;
+}
+
+.title {
+  font-family: 'Big Noodle Titling Oblique';
+  font-size: 3rem;
+}
+
+@media (min-width: 1000px) {
+  body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .logo {
+    display: flex;
+    width: 20%;
+    margin: 2% auto;
+    justify-content: center;
+  }
+
+  .ABV,
+  .brewer,
+  .style {
+    font-family: 'Big Noodle Titling';
+    font-size: 2rem;
+    margin: 2%;
+  }
+
+  .description {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    margin: 2%;
+  }
+
+  .title {
+    font-family: 'Big Noodle Titling Oblique';
+    font-size: 4rem;
+    margin: 2%;
+  }
+}
