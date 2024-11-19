@@ -119,6 +119,14 @@ a:hover {
     margin: 2%;
   }
 
+  .description-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
   .title {
     font-family: 'Big Noodle Titling Oblique';
     font-size: 4rem;
