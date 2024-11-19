@@ -126,11 +126,13 @@ a:hover {
   }
 
   #passwordInput {
+    display: flex;
     margin: 2%;
     font-size: 1.5rem;
   }
 
   .submit {
+    display: flex;
     font-size: 1rem;
   }
 
